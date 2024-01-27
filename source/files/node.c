@@ -102,7 +102,7 @@ void drawNodes(){
         rect.x-=nodeDrawSize.x/2;
         rect.y-=nodeDrawSize.y/2;
         DrawRectangleV(rect,nodeDrawSize,nodeColor);
-        drawNodeInformation(i,rect);
+        DrawText(TextFormat("%d",i),rect.x,rect.y,20,BLUE);
     }
 }
 static int processBestNode(){
