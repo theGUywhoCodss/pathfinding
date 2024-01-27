@@ -40,6 +40,8 @@ static void UpdateDrawFrame(void); // Update and draw one frame
 //----------------------------------------------------------------------------------
 int main()
 {
+    //feiufuierfhreiufifheifreiufhreiufhruifeuifreiuf
+    //asfdsfdsafdasfdsfadsfs
     // Initialization
     //--------------------------------------------------------------------------------------
     const int screenWidth = 800;
