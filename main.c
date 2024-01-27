@@ -47,6 +47,7 @@ int main()
     InitWindow(screenWidth, screenHeight, "Template");
     generateNodes((Vector2){600,600});
     runNodes();
+    printf("hi");
     //--------------------------------------------------------------------------------------
 #if defined(PLATFORM_WEB)
     emscripten_set_main_loop(UpdateDrawFrame, 60, 1);
